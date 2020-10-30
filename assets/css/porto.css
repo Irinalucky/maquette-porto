@@ -232,3 +232,20 @@ div img {
     font-family: "lato"
     
 }
+#contact{
+    width: 100%;
+    background: url(../img/parallax3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    color: white;
+    letter-spacing: 0.7rem;
+    font-size: 25px;
+    
+}
