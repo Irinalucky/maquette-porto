@@ -52,12 +52,13 @@ a {
 .about {
     width: 70%;
     margin-left: 14%;
-    color: grey;
     text-align: center;
+    
 }
 
 .ilove {
     font-style: italic;
+    color: grey;
 
 }
 
@@ -235,6 +236,7 @@ div img {
 #contact{
     width: 100%;
     background: url(../img/parallax3.jpg);
+    opacity: 0.5;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -248,4 +250,66 @@ div img {
     letter-spacing: 0.7rem;
     font-size: 25px;
     
+}
+.contcont{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    color: grey;
+    
+}
+.map{
+    color:grey ;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+   
+}
+.mapimg{
+    width: 33%
+    
+
+}
+.address{
+    width: 80%;
+    height: 150px;
+    text-align: left;
+    line-height: .8rem;
+    color: grey;
+    margin-left: 2rem;
+}
+.carro{
+    width: 200px;
+    border-radius: 8%;
+    -webkit-border-radius:8%;
+    
+}
+textarea{
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: grey;
+    font-size: .2rem;
+    font-family: "lato";
+    margin: 6px 0 6px 0;
+    
+}
+.note{
+    font-size: .8rem;
+    
+}
+.send{
+    background-color: black;
+    font-family: "lato";
+    float: right;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border: none;
+}
+input{
+    width:50%;
 }
