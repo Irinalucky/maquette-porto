@@ -69,13 +69,16 @@ a {
     font-size: 25px;
     padding: 8px 8px 8px 8px;
 }
+.at{
+    width: 100%;
+}
 
 #name {
     width: 70%;
     display: flex;
-    margin-left: 14%;
+    margin: auto;
     margin-top: 5rem;
-    justify-content: space-between;
+    
     color: grey;
 
 }
@@ -83,7 +86,11 @@ a {
 .avatar {
     text-align: center;
     margin-right: 45px;
+    width: 50%;
 
+}
+.avatext{
+    width: 50%;
 }
 
 #me {
